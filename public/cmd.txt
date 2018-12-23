@@ -1,0 +1,42 @@
+1  git --version
+2  git init
+3  ls
+4  cd ../..
+5  ls
+6  cd NodeJs
+7  cd node-web-server/
+8  git init
+9  ls -a
+10  git status
+11  cls
+12  clear
+13  git status
+14  git add package.json
+15  git status
+16  clear
+17  git add public/
+18  git status
+19  git add app.js
+20  git add views/
+21  git status
+22  git status
+23  git add .gitignore
+24  clear
+25  git status
+26  git commit -m 'Initial commit'
+27  clear
+28  ls -al ~/.ssh
+29  ssh-keygen -t rsa -b 4096 -C "elghazrani.abdelali@gmail.com"
+30  ls -al ~/.ssh
+31  clear
+32  eval "$(ssh-agent -s)"
+33  ssh-add ~/.ssh/id_rsa
+34  clip < ~/.ssh/id_rsa.pub
+35  ssh -T git@github.com
+36  ssh -T git@github.com
+37  clip < ~/.ssh/id_rsa.pub
+38  ssh -T git@github.com
+39  ssh -T -p 443 git@ssh.github.com
+40  git remote add origin https://github.com/aelghazrani/node-course1-web-server.git
+41  git push -u origin master
+42  history
