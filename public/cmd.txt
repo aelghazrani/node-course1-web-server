@@ -40,3 +40,6 @@
 40  git remote add origin https://github.com/aelghazrani/node-course1-web-server.git
 41  git push -u origin master
 42  history
+    git add .   //after change in files
+    git commit -m 'description'
+    git push
